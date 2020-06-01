@@ -4,7 +4,7 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 const AddTechModal = () => {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
-    const onsubmit = () => {
+    const onSubmit = () => {
         if(firstName === '' || lastName === ''){
             M.toast({html:'Please enter the details'})
         }else{
@@ -34,7 +34,7 @@ const AddTechModal = () => {
                 </div>
             </div>
             <div className="modal-footer">
-                <a href="#!" onClick={onsubmit} className="modal-close waves-effect waves-green btn-flat">Enter</a>
+                <a href="#!" onClick={onSubmit} className="modal-close waves-effect waves-green btn">Enter</a>
             </div>
         </div>
     )

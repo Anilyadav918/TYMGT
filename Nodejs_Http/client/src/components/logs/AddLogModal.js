@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import {addLog} from '../../actions/logActions';
 
 
+
 const AddLogModal = ({addLog}) => {
     const [work, setWork] = useState('');
     const [working, setWorking] = useState(false);
@@ -46,7 +47,7 @@ const AddLogModal = ({addLog}) => {
                     <div className="input-field">
                         <p>
                             <label>
-                                <input type="checkbox" className="filled-in" checked={working} value={working} onChange={e => setWorking(!working)} />
+                                <input type="checkbox" className="filled-in" checked={working} value={working} onChange={e => setWorking(!working)}/>
                                 <span>Working</span>
                             </label> 
                         </p>
@@ -55,16 +56,14 @@ const AddLogModal = ({addLog}) => {
             </div>
             <div className="modal-footer">
                 <a 
-                    href="#!" 
+                    href='#!' 
                     onClick={onSubmit} 
-                    className="modal-close waves-effect blue waves-light btn"
-                    >
-                        Enter
-                        </a>
+                    className='modal-close waves-effect blue waves-light btn'>
+                        Enter</a>
             </div>
         </div>
-    )
-}
+    );
+};
 
 const modalStyle = {
     width: '75%',

@@ -15,6 +15,7 @@ import LogSurvey from './LogSurvey';
 
       const getLogs = async () => {
           setLoading(true);
+          
           const res = await fetch('/logs');
           const data = await res.json();
 
@@ -22,7 +23,7 @@ import LogSurvey from './LogSurvey';
           setLoading(false);
       }
 
-     if(loading || logs === null){
+     if(loading){
          return <h4>Loading...</h4>
      }
 

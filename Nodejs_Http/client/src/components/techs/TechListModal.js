@@ -25,7 +25,7 @@ import TechItem from './TechItem';
             <div className="modal-content">
                 <h4>Employee List</h4>
                 <ul className="collection">
-                    {!loading && techs.map(tech => <TechItem tech={tech} key={tech.id} />)}
+                    {!loading && techs.map(tech => (<TechItem tech={tech} key={tech.id} />))}
                 </ul>
             </div>
         </div>

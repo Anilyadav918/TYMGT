@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {connect} from 'react-redux';
-import PropTypes from 'prop-types'
+
 import { updateLog } from '../../actions/logActions';
 
 
@@ -73,10 +73,6 @@ const modalStyle = {
     height: '75%'
 }
 
-EditLogModal.propTypes = {
-    current: PropTypes.object.isRequired,
-    updateLog: PropTypes.func.isRequired
-}
 
 const mapStateToProps = state => ({
     current: state.log.current

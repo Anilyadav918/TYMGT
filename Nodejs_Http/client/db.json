@@ -1,11 +1,11 @@
 {
   "logs": [
     {
+      "id": 1,
       "work": "Web Developer",
-      "working": false,
       "tech": "Sam Smith",
-      "date": "2019-05-31T15:46:10.179Z",
-      "id": 1
+      "working": false,
+      "date": "2020-06-01T07:17:40.794Z"
     },
     {
       "id": 2,
@@ -15,11 +15,11 @@
       "date": "2019-05-31T16:18:04.245Z"
     },
     {
+      "id": 3,
       "work": "communication",
       "working": true,
       "tech": "Sara Wilson",
-      "date": "2019-05-31T15:46:48.690Z",
-      "id": 3
+      "date": "2019-05-31T15:46:48.690Z"
     },
     {
       "id": 4,
@@ -27,6 +27,20 @@
       "working": false,
       "tech": "Sara Wilson",
       "date": "2019-05-31T19:57:35.544Z"
+    },
+    {
+      "work": "",
+      "working": false,
+      "tech": "",
+      "date": "2020-06-01T07:39:00.924Z",
+      "id": 6
+    },
+    {
+      "work": "",
+      "working": false,
+      "tech": "",
+      "date": "2020-06-01T07:40:10.042Z",
+      "id": 7
     }
   ],
   "techs": [

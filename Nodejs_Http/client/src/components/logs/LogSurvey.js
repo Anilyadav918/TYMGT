@@ -28,8 +28,8 @@ const LogItem = ({log}) => {
 }
 
 LogItem.propTypes = {
-    log: PropTypes.object.isRequired,
-    tech: PropTypes.object.isRequired
+    log: PropTypes.object.isRequired
+    
 }
 
 export default LogItem;
