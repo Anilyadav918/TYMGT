@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Anilyadav918/TYM_Assesment#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
